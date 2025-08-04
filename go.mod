@@ -1,3 +1,3 @@
-module github/KosukeNakazaki/shared-models
+module github.com/KosukeNakazaki/shared-models
 
 go 1.24.0
