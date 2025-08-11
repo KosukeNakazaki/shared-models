@@ -11,6 +11,6 @@ type PendingSignupData struct {
 	Company        Company        `gorm:"embedded;embeddedPrefix:company_" json:"company"`
 	Office         Office         `gorm:"embedded;embeddedPrefix:office_" json:"office"`
 	Department     Department     `gorm:"embedded;embeddedPrefix:department_" json:"department"`
-	Token          string         `gorm:"unique;not null" json:"token"`
+	Token          string         `gorm:"not null" json:"token"`
 	CreatedAt      time.Time      `json:"created_at" gorm:"autoCreateTime"`
 }

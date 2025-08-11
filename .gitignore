@@ -1,0 +1,4 @@
+.vscode/*
+!.vscode/tasks.json
+!.vscode/extensions.json
+*.code-workspace
